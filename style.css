@@ -12,15 +12,15 @@ body {
 }
 
 .header {
-  padding: 3px;
+  padding: 0px;
   background-color: #ffe499;
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin-top:0px;
 }
 
 div {
@@ -33,8 +33,8 @@ img {
   width: 70px;
   height: 70px;
   margin-left: 50px;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom:10px;
 }
 
 .span {
@@ -73,7 +73,9 @@ img {
 
 .menu {
   display: flex;
+  align-items:center;
   margin-right: 60px;
+  margin-top:10px;
   list-style: none;
 }
 
