@@ -1,86 +1,175 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 
+
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 * {
+  margin: 0%;
+  padding: 0px;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Arvo", serif;
+  cursor: default;
 }
 
-body {
-  font-family: "Inconsolata", monospace;
+header {
+  background-color: #ab92bf;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0px 30px 0px 30px;
+  position: fixed;
+  top: 0px;
+}
+
+.logo {
+  height: 80%;
+}
+
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  gap: 150px;
+}
+
+.navbar-list {
+  gap: 40px;
+}
+
+.navbar-list a {
+  color: black;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+li:active {
+  transform: translateY(4px);
+}
+
+a:hover {
+  color: white;
+}
+
+.button {
+  background-color: rgb(78, 89, 235);
+  padding: 10px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 17px;
+  text-align: center;
+  box-shadow: 10px;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #845ca5;
+  transform: translateY(2px);
+}
+
+.main {
+  margin: 0px;
+}
+
+.contenedor {
+  background-color: #ab92bf;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+  padding-right: 100%;
+  padding-left: 8%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.home-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  width: 50%;
+  margin-left: 70px;
+  margin-right: 20px;
+}
+
+.home-info h1 {
+  font-size: 60px;
+  width: 150%;
+  font-weight: 900;
+  color: white;
   margin: 0px;
   padding: 0px;
-  background-color: #e1a078;
 }
 
-.header {
-  padding: 0px;
-  background-color: #ffe499;
-  margin-top: 0px;
+.home-info p {
+  color: black;
+  font-size: 40px;
+  width: 400px;
+  padding-left: 6px;
+  border-radius: 10px;
+  text-align: start;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  margin-top:0px;
+#p-small {
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  width: 400px;
+  padding-left: 6px;
+  padding-bottom: 20px;
+  padding-top: 5px;
+  text-align: start;
 }
 
-div {
-  display: flex;
-  justify-content: flex-start;
+.whatsapp {
+  width: 29%;
+  background-color: #075e54;
+  border: 0px;
+  margin: 5px 0px 5px 2px;
+  padding: 7px;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
   align-items: center;
 }
 
-img {
-  width: 70px;
-  height: 70px;
-  margin-left: 50px;
-  margin-top: 0px;
-  margin-bottom:10px;
+.whatsapp img {
+  width: 20%;
 }
 
-.span {
-  font-size: 40px;
-  margin-left: 20px;
+.whatsapp p {
+  font-family: Helvetica;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
 }
 
-.span2 {
-  font-size: 40px;
-  font-weight: bold;
-  margin-left: 20px;
-}
-
-.nav-link {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color: #e78a42;
-}
-
-.nav-link-btn {
-  color: black;
-  text-decoration: none;
-  font-weight: bold;
-  background-color: #ffa866;
-  padding: 8px;
-  border-radius: 10px;
-}
-
-.nav-link-btn:hover {
-  color: #ffe499;
-}
-
-.menu {
+.home-img {
+  width: 470px;
+  padding: 10px 50px 15px 15px;
   display: flex;
-  align-items:center;
-  margin-right: 60px;
-  margin-top:10px;
-  list-style: none;
+  flex-direction: column;
+  justify-content: start;
+  gap: 30px;
+  margin: 20px 10px 20px 40px;
 }
 
-.nav-menu-item {
-  font-size: 20px;
-  margin: 0px 30px;
-  margin-top: 15px;
+.img {
+  width: 470px;
+}
+
+h1:hover {
+  transform: scale(1.2, 1.2);
+  cursor: default;
 }
