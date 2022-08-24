@@ -80,15 +80,13 @@ button:active {
 }
 
 .contenedor {
+  width: 100%;
   background: linear-gradient(to bottom,#a481c2, #e9bed0);
   display: inline-flex;
   justify-content: flex-start;
   align-items: center;
   margin-top: 60px;
-  padding-right: 100%;
-  padding-left: 8%;
-  padding-top: 5%;
-  padding-bottom: 3%;
+  padding-left: 120px;
 }
 
 .home-info {
@@ -96,8 +94,7 @@ button:active {
   flex-direction: column;
   gap: 0px;
   width: 50%;
-  margin-left: 70px;
-  margin-right: 20px;
+  margin-left: 50px;
 }
 
 .home-info h1 {
@@ -201,6 +198,7 @@ h1:hover {
 }
 
 .contenedor-presentacion{
+  width: 100%;
   padding-top:70px;
   padding-bottom: 70px;
   background-color:rgb(233, 190, 208);
