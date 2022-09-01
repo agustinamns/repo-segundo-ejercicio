@@ -40,7 +40,8 @@ header {
 }
 
 #menu-toggle,
-#cart-toggle .menu-label {
+#cart-toggle 
+.menu-label {
   display: none;
 }
 
