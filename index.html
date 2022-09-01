@@ -4,12 +4,18 @@
     <meta charset="UTF-8" />
     <title>Entrega 2, navbar.</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css"/>
   </head>
 
   <body>
     <header>
       <img class="logo" src="img/Brazuca - Cat 2.png" alt="Logotipo" />
       <nav class="navbar">
+<label for="menu-toggle" class="menu-label">
+  <img src="img/baseline_density_medium_black_24dp.png" alt="icon-menu" class="menu-icon"/>
+</label>
+<input type="checkbox" id="menu-toggle">
+        
         <ul class="navbar-list">
           <li>
             <a href="#">Inicio</a>
@@ -62,6 +68,7 @@
 
       <section>
         <div class="contenedor-presentacion">
+          <div class="gato-texto">
           <div class="text">
             <h2>sobre nosotros...</h2>
             <p>
@@ -86,6 +93,10 @@
               gracias por todo!</span
             >
           </div>
+          <div class="contenedor-gato">
+            <img class="gato" src="img/cat.jpg"/>
+          </div>
+          </div>
 
           <div class="frase">
             <h4>
@@ -100,17 +111,24 @@
       
       <section>
         <div class="contenedor-servicios">
-          <div class="servicios-intro">
-            <h2>servicios...</h2>
-            <p>
-              A continuacion nuestros servicios, recorda que nos mantenemos sin
-              subsidios, aportes de empresas, o donacion de alimento balanceado
-              de ninguna compañía, no tenemos cuotas ni socios. Se puede ser
-              padrino / madrina del refugio, o de un perrito que desees proteger
-              en particular, a voluntad: no hay montos fijos y la frecuencia de
-              la ayuda también es voluntaria.
-            </p>
+          <div class="perro-servicios">
+            <div class="contenedor-perro">
+              <img class="perro" src="img/dog.jpg"/>
+            </div>
+            <div class="servicios-intro">
+              <h2>servicios...</h2>
+              <p>
+                A continuacion nuestros servicios, recorda que nos mantenemos sin
+                subsidios, aportes de empresas, o donacion de alimento balanceado
+                de ninguna compañía, no tenemos cuotas ni socios. Se puede ser
+                padrino / madrina del refugio, o de un perrito que desees proteger
+                en particular, a voluntad: no hay montos fijos y la frecuencia de
+                la ayuda también es voluntaria.
+              </p>
+            </div>
+
           </div>
+        
 
           <div class="items">
             <div class="item-card">

@@ -1,0 +1,121 @@
+/*tablets*/
+@media (max-width:992px) {
+    .navbar{
+        gap:10px;
+    }
+
+    .navbar-list{
+        position:absolute;
+        top:65px;
+        left:5%;
+        right: 5%;
+        width:90% ;
+        flex-direction: column;
+        background-color:#a481c2;
+        border: 2px solid #8b5ab6;
+        border-top:0px;
+        border-radius: 0px 0px 10px 10px;
+        align-items: center;
+        padding:20px 20px;
+        gap:26px;
+        z-index:3px;
+        display:none;
+    }
+
+    .navbar-list a {
+        color: black;
+        font-size: 19px;
+        cursor: pointer;
+      }
+
+      a:hover {
+        color: white;
+      }
+
+      .menu-label{
+        display:flex;
+        cursor:pointer;
+      }
+
+      .menu-label:hover{
+        color: white;
+      }
+
+      #menu-toggle:checked+ .navbar-list{
+        display:flex;
+      }
+
+      .contenedor{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        padding-left: 0px;      }
+
+      .home-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width:unset;
+      }
+
+      .home-info p{
+        width: 400px;
+        min-width:unset;
+        padding-left: 0px;
+        min-width:unset;
+        margin:0px;
+      }
+
+#p-small{
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin:0px;
+  width: 400px;
+  text-align: center;
+  min-width:unset;
+}
+
+      .botones{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap:30px;
+        padding-left: 0px;   
+      }
+
+      .whatsapp {
+        width: 49%;
+        padding: 9px;
+       
+      }
+
+      .whatsapp img {
+        width: 30px;
+      }
+
+      .cafecito {
+        width: 51%;
+        padding: 11px;
+       
+      }
+
+      .cafecito img {
+        width: 30px;
+      }
+
+      .home-img {
+        width: 450px;
+        padding: 0px;
+        display: flex;
+        gap: 30px;
+        margin: 20px 10px 20px 10px;
+      }
+
+
+      .items{
+        max-width: 90%;
+        gap:10px;
+      }
+}

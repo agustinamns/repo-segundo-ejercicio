@@ -39,6 +39,12 @@ header {
   gap: 150px;
 }
 
+#menu-toggle, 
+#cart-toggle
+.menu-label{
+display:none;
+}
+
 .navbar-list {
   gap: 40px;
 }
@@ -148,10 +154,11 @@ button:active {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .whatsapp img {
-  width: 20%;
+  width: 20px;
 }
 
 .whatsapp p {
@@ -207,13 +214,31 @@ h1:hover {
   padding-top: 70px;
   padding-bottom: 150px;
   background-color: rgb(233, 190, 208);
+}
+
+.gato-texto{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
   flex-wrap: wrap;
-  display: block;
+}
+.contenedor-gato{
+  background: #845ca5;
+  width: 270px;
+  padding: 10px 50px 15px 15px;
+  display: flex;
   justify-content: center;
-  align-items: center;
+  margin: 20px 10px 20px 60px;
+  border-radius: 20px;
+
+}
+.gato{
+  width: 280px;
+  border-radius: 20px;
 }
 
 .text h2 {
+  
   font-family: 'Volkhov', serif;
   width: 70%;
   margin: auto;
@@ -224,7 +249,7 @@ h1:hover {
 
 .text {
   width: 30%;
-  margin: auto;
+  
   text-align: justify;
   font-size: 18px;
   padding: 5px 5px 50px 5px;
@@ -263,12 +288,34 @@ h1:hover {
 padding-bottom:100px;
 }
 
+.perro-servicios{
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
+.contenedor-perro{
+  background:hsl(226, 91%, 46%);
+  width: 270px;
+  padding: 10px 50px 15px 15px;
+  display: flex;
+  justify-content: center;
+  margin: 20px 10px 20px 60px;
+  border-radius: 20px;
+
+}
+
+.perro{
+  width: 280px;
+  border-radius: 20px;
+}
+
 .servicios-intro {
+  width: 30%;
   text-align: justify;
-  width: 50%;
-  margin: auto;
   font-size: 18px;
-  text-align: justify;
+  padding: 5px 5px 50px 5px;
 }
 
 .servicios-intro h2 {
@@ -288,7 +335,7 @@ padding-bottom:100px;
 
 .items {
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 40px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
