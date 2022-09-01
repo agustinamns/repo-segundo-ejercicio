@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
 
 * {
   margin: 0%;
@@ -39,10 +39,9 @@ header {
   gap: 150px;
 }
 
-#menu-toggle, 
-#cart-toggle
-.menu-label{
-display:none;
+#menu-toggle,
+#cart-toggle .menu-label {
+  display: none;
 }
 
 .navbar-list {
@@ -106,9 +105,8 @@ button:active {
   margin-left: 50px;
 }
 
-
 .home-info h1 {
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
   font-size: 60px;
   width: 150%;
   font-weight: 900;
@@ -154,7 +152,6 @@ button:active {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .whatsapp img {
@@ -216,13 +213,13 @@ h1:hover {
   background-color: rgb(233, 190, 208);
 }
 
-.gato-texto{
-  display:inline-flex;
-  justify-content:center;
-  align-items:center;
+.gato-texto {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
-.contenedor-gato{
+.contenedor-gato {
   background: #845ca5;
   width: 270px;
   padding: 10px 50px 15px 15px;
@@ -230,16 +227,14 @@ h1:hover {
   justify-content: center;
   margin: 20px 10px 20px 60px;
   border-radius: 20px;
-
 }
-.gato{
+.gato {
   width: 280px;
   border-radius: 20px;
 }
 
 .text h2 {
-  
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -282,30 +277,28 @@ h1:hover {
 }
 
 .contenedor-servicios {
-
   background-color: #e9bed0;
-padding-bottom:100px;
+  padding-bottom: 100px;
 }
 
-.perro-servicios{
-  display:inline-flex;
-  justify-content:center;
-  align-items:center;
+.perro-servicios {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.contenedor-perro{
-  background:hsl(226, 91%, 46%);
+.contenedor-perro {
+  background: hsl(226, 91%, 46%);
   width: 270px;
   padding: 10px 50px 15px 15px;
   display: flex;
   justify-content: center;
   margin: 20px 10px 20px 60px;
   border-radius: 20px;
-
 }
 
-.perro{
+.perro {
   width: 280px;
   border-radius: 20px;
 }
@@ -318,7 +311,7 @@ padding-bottom:100px;
 }
 
 .servicios-intro h2 {
-  font-family: 'Volkhov', serif;
+  font-family: "Volkhov", serif;
   width: 70%;
   margin: auto;
   text-align: center;
@@ -337,164 +330,160 @@ padding-bottom:100px;
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   font-size: 16px;
 }
 
 .item-card {
-  background: linear-gradient(to top, #a481c2 , #e9bed0);
+  background: linear-gradient(to top, #a481c2, #e9bed0);
   width: 280px;
   height: 280px;
   padding: 25px 20px 20px 20px;
-  margin-bottom:10px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   border-radius: 100%;
-  gap:5px;
+  gap: 5px;
   box-shadow: 5px 5px 6px #694a85;
 }
 
-.contacto{
+.contacto {
   background: linear-gradient(to top, hsl(226, 91%, 46%), #e9bed0);
   padding-top: 250px;
   padding-bottom: 50px;
-
 }
 
-.contacto h2{
-  font-family: 'Volkhov', serif;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 2%;
-    padding-top: 3%;
-    font-size: 27px;
+.contacto h2 {
+  font-family: "Volkhov", serif;
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  font-size: 27px;
 }
- 
 
-.contenedor-footer{
+.contenedor-footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:10px;
+  gap: 10px;
   flex-wrap: wrap;
-  gap:30px;
+  gap: 30px;
   font-size: 18px;
   padding-bottom: 100px;
 }
 
-.footer-img{
+.footer-img {
   width: 20%;
   margin-right: 40px;
 }
 
-.footer-img img{
+.footer-img img {
   width: 130px;
 }
 
-.name-footer{
-  font-family: 'Volkhov', serif;
-  color:white;
+.name-footer {
+  font-family: "Volkhov", serif;
+  color: white;
   font-size: 30px;
 }
 
-.small{
+.small {
   font-size: 15px;
   font-style: italic;
 }
 
-
-.footer-box-info{
+.footer-box-info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap:5px;
+  gap: 5px;
   padding-top: 20px;
-  padding-left: 10px ;
+  padding-left: 10px;
   width: 250px;
   height: 200px;
 }
 
-.footer-box-info h3{
+.footer-box-info h3 {
   padding-bottom: 10px;
   color: hsl(226, 91%, 46%);
- 
+
   font-style: italic;
 }
 
-.footer-box-info p{
+.footer-box-info p {
   font-size: 15px;
 }
 
-.footer-box-info span{
+.footer-box-info span {
   font-size: 15px;
 }
 
-.footer-box-info a{
+.footer-box-info a {
   font-size: 15px;
-  color:black;
+  color: black;
 }
 
-.footer-box-info a:hover{
-color:white;
-cursor: pointer;
+.footer-box-info a:hover {
+  color: white;
+  cursor: pointer;
 }
 
-.insta{
+.insta {
   width: 8%;
   padding-left: 3px;
 }
 
-.mail{
-  width: 8%;
-  padding-left: 3px;
-
-}
-
-.face{
+.mail {
   width: 8%;
   padding-left: 3px;
 }
 
-.tw{
-  width: 8%;
-  padding-left: 3px;
-}
-.ubi{
+.face {
   width: 8%;
   padding-left: 3px;
 }
 
-.time{
+.tw {
+  width: 8%;
+  padding-left: 3px;
+}
+.ubi {
   width: 8%;
   padding-left: 3px;
 }
 
-.despedida{
+.time {
+  width: 8%;
+  padding-left: 3px;
+}
+
+.despedida {
   padding-top: 10px;
   text-align: center;
-  margin:auto;
+  margin: auto;
   width: 50%;
   border-top: 0.2px solid black;
 }
 
-footer{
-  background-color:hsl(226, 91%, 46%);
-  padding:50px;
+footer {
+  background-color: hsl(226, 91%, 46%);
+  padding: 50px;
 }
 
-.icon-footer{
-text-align: center;
-display: inline-block;
-}
-
-.footer-text{
+.icon-footer {
+  text-align: center;
   display: inline-block;
-  vertical-align:50%;
 }
 
-.icon-footer img{
+.footer-text {
+  display: inline-block;
+  vertical-align: 50%;
+}
+
+.icon-footer img {
   width: 40px;
-  padding:3px;
+  padding: 3px;
 }
