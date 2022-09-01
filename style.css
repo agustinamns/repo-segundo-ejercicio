@@ -40,9 +40,9 @@ header {
 }
 
 #menu-toggle,
-#cart-toggle 
-.menu-label {
-  display: none;
+#cart-toggle,
+.menu-label{
+  display:none;
 }
 
 .navbar-list {

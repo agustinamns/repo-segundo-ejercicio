@@ -187,11 +187,6 @@
 }
 
 @media (max-width: 576px) {
-
-  #menu-toggle:checked + .navbar-list {
-    display: flex;
-  }
-  
   .contenedor {
     width: 100%;
     max-width: unset;
