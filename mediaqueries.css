@@ -186,7 +186,7 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 480px) {
   .contenedor {
     width: 100%;
     max-width: unset;
